@@ -827,7 +827,6 @@ curLang=document.documentElement.lang;renderShots();
 
 var _ty=document.getElementById('tyear');if(_ty)_ty.textContent=new Date().getFullYear();
 document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(a)[].forEach.call(document.querySelectorAll('.rv'),function(el){el.classList.add('in')})});
-setTimeout(function(){[].forEach.call(document.querySelectorAll('.rv'),function(el){var r=el.getBoundingClientRect();if(r.top<window.innerHeight)el.classList.add('in')})},1500);
 // ---------- sound ----------
 var AC=null,master=null,sndOn=false,sndBtn=document.getElementById('snd'),unlockEl=null;
 function initAudio(){
